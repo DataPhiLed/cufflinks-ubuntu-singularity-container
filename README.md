@@ -2,6 +2,8 @@
 
 ## Install Singularity
 
+Assuming you are running either Ubuntu 16.04 or Ubuntu 17.04.
+
 ### Install Singularity on Ubuntu 16.04
 
 ```
@@ -11,7 +13,7 @@ Ubuntu 16.04.3 LTS \n \l
 ubuntu@laptop:~$ 
 ```
 
-Follow the [install instructions](Option 1: Download latest stable release) under the section
+Follow the [install instructions](http://singularity.lbl.gov/install-linux) under the section
 _Option 1: Download latest stable release_
 
 ### Install Singularity on Ubuntu 17.04
@@ -23,9 +25,9 @@ Ubuntu 17.04 \n \l
 ubuntu@laptop:~$ sudo apt-get install singularity-container
 ```
 
-### Create Singularity container
+### Create a Singularity container
 
-Download the git repository
+Clone this git repository
 
 ```
 ubuntu@laptop:~$ git clone git@github.com:eriksjolund/cufflinks-ubuntu-singularity-container.git
