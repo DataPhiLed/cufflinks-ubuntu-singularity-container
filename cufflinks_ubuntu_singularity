@@ -1,0 +1,11 @@
+BootStrap: debootstrap
+OSVersion: zesty
+MirrorURL: http://se.archive.ubuntu.com/ubuntu/
+
+%runscript
+  echo "What should we put in this run script?"
+
+%post
+  sed -i 's/$/ universe restricted multiverse/' /etc/apt/sources.list
+  apt-get update
+  apt-get -y install cufflinks
