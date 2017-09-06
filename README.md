@@ -43,7 +43,7 @@ ubuntu@laptop:~$ singularity create /tmp/container.img
 Use the file [cufflinks_ubuntu_singularity](cufflinks_ubuntu_singularity) to install Ubuntu 17.04 and [cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) in the container
 
 ```
-ubuntu@laptop:~$ sudo singularity bootstrap /tmp/cufflinks-ubuntu1704-container.img /tmp/cufflinks-ubuntu-singularity-container/cufflinks_ubuntu_singularity
+ubuntu@laptop:~$ sudo singularity bootstrap /tmp/container.img /tmp/cufflinks-ubuntu-singularity-container/cufflinks_ubuntu_singularity
 ```
 
 The bootstrap command took about 3 minutes on my computer.
