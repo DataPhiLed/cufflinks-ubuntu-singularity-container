@@ -1,8 +1,8 @@
 # How to create an Ubuntu singularity container with cufflinks installed
 
-## Install Singularity
+__Requirements__: Your computer is running either __Ubuntu 16.04__ or __Ubuntu 17.04__.
 
-Assuming you are running either Ubuntu 16.04 or Ubuntu 17.04.
+## Install Singularity
 
 ### Install Singularity on Ubuntu 16.04
 
@@ -30,7 +30,8 @@ ubuntu@laptop:~$ sudo apt-get install singularity-container
 Clone this git repository
 
 ```
-ubuntu@laptop:~$ git clone git@github.com:eriksjolund/cufflinks-ubuntu-singularity-container.git
+ubuntu@laptop:~$ cd /tmp
+ubuntu@laptop:/tmp$ git clone git@github.com:eriksjolund/cufflinks-ubuntu-singularity-container.git
 ```
 
 Create an empty Singularity container
