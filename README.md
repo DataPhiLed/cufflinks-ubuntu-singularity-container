@@ -4,6 +4,15 @@ __Requirements__: Your computer is running either __Ubuntu 16.04__ or __Ubuntu 1
 
 ## Install Singularity
 
+First install the required packages
+* debootstrap
+* git
+
+
+```
+ubuntu@laptop:~$ sudo apt-get install debootstrap git
+```
+
 ### Install Singularity on Ubuntu 16.04
 
 ```
