@@ -8,8 +8,10 @@
 ubuntu@laptop:~$ cat /etc/issue
 Ubuntu 16.04.3 LTS \n \l
 
-ubuntu@laptop:~$ sudo apt-get install singularity-container
 ```
+
+Follow the [install instructions](Option 1: Download latest stable release) under the section
+_Option 1: Download latest stable release_
 
 ### Install Singularity on Ubuntu 17.04
 
@@ -34,7 +36,7 @@ Create an empty Singularity container
 ubuntu@laptop:~$ singularity create /tmp/container.img
 ```
 
-Use the [cufflinks_ubuntu_singularity](cufflinks_ubuntu_singularity) to install Ubuntu 17.04 and cufflinks in the container
+Use the file [cufflinks_ubuntu_singularity](cufflinks_ubuntu_singularity) to install Ubuntu 17.04 and cufflinks in the container
 
 ```
 ubuntu@laptop:~$ sudo singularity bootstrap /tmp/cufflinks-ubuntu1704-container.img /tmp/cufflinks-ubuntu-singularity-container/cufflinks_ubuntu_singularity
