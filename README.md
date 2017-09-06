@@ -8,6 +8,7 @@
 ubuntu@laptop:~$ cat /etc/issue
 Ubuntu 16.04.3 LTS \n \l
 
+ubuntu@laptop:~$ 
 ```
 
 Follow the [install instructions](Option 1: Download latest stable release) under the section
